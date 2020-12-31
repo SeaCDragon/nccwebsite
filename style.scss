@@ -1,0 +1,112 @@
+body{
+  background-color: black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li{
+  float: right;
+  display: table-cell;
+
+  &:hover{
+    color: white;
+    background-color: gray;
+  }
+
+  a{
+    font-family: sans-serif;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: grey;
+    font-size: 25px;
+    height: 51px;
+  }
+}
+
+a{
+  &:hover{
+    color: white;
+    background-color: gray;
+  }
+  &#enter{
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    font-size: 24px;
+    top: 60%;
+    left: 47%;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    &:hover{
+      background-color: grey;
+      color: white;
+    }
+  }
+}
+
+p{
+  font-size: 25px;
+  font-family: sans-serif;
+  color:white;
+}
+
+span#landing-reel{
+  color: grey;
+  font-size: 48px;
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  &::before{
+    content: "Nathan Cheng Consulting";
+    animation: animate infinite 9s;
+  }
+}
+
+@keyframes animate {
+  33%{content: "Client Representation"}
+  66%{content: "Project Management"}
+  99%{content: "Nathan Cheng Consulting"}
+}
+
+#logo{
+  max-height: 45px;
+}
+
+#content{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  background-color: gray;
+  padding: 20px;
+  height: 100%;
+}
+
+#content-wrapper{
+  background-color: gray;
+  width: 100%;
+}
+
+#footer{
+  color: white;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#contact{
+  font-size: 35px;
+}
