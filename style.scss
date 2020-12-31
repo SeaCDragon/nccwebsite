@@ -82,17 +82,31 @@ span#landing-reel{
 }
 
 #logo{
-
+  max-height: 45px;
 }
 
 #content{
-
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  background-color: gray;
+  padding: 20px;
+  height: 100%;
 }
 
 #content-wrapper{
-
+  background-color: gray;
+  width: 100%;
 }
 
 #footer{
+  color: white;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
 
+#contact{
+  font-size: 35px;
 }
