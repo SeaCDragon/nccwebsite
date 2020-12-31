@@ -22,7 +22,6 @@ li{
   a{
     font-family: sans-serif;
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -32,9 +31,27 @@ li{
   }
 }
 
-a:hover{
-  color: white;
-  background-color: gray;
+a{
+  &:hover{
+    color: white;
+    background-color: gray;
+  }
+  &#enter{
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    font-size: 24px;
+    top: 60%;
+    left: 47%;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    &:hover{
+      background-color: grey;
+      color: white;
+    }
+  }
 }
 
 p{
@@ -43,7 +60,7 @@ p{
   color:white;
 }
 
-span{
+span#landing-reel{
   color: grey;
   font-size: 48px;
   margin: auto;
@@ -52,30 +69,10 @@ span{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-a#enter{
-  margin: auto;
-  text-align: center;
-  position: fixed;
-  font-size: 24px;
-  top: 60%;
-  left: 47%;
-  color: black;
-  background-color: white;
-  border-radius: 10px;
-  padding: 10px
-
-}
-
-a#enter:hover{
-  background-color: grey
-  color: white;
-}
-
-span::before{
-  content: "Nathan Cheng Consulting";
-  animation: animate infinite 9s;
+  &::before{
+    content: "Nathan Cheng Consulting";
+    animation: animate infinite 9s;
+  }
 }
 
 @keyframes animate {
