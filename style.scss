@@ -47,6 +47,7 @@ a{
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    text-decoration: none;
     &:hover{
       background-color: grey;
       color: white;
@@ -83,6 +84,9 @@ span#landing-reel{
 
 #logo{
   max-height: 45px;
+  &:hover{
+    background-color: gray;
+  }
 }
 
 #content{

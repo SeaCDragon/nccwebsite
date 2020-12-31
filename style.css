@@ -44,6 +44,7 @@ a#enter {
   background-color: white;
   border-radius: 10px;
   padding: 10px;
+  text-decoration: none;
 }
 a#enter:hover {
   background-color: grey;
@@ -84,6 +85,9 @@ span#landing-reel::before {
 }
 #logo {
   max-height: 45px;
+}
+#logo:hover {
+  background-color: gray;
 }
 
 #content {
