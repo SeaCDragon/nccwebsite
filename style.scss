@@ -1,11 +1,16 @@
+$background-color: #382E2C;
+$content-color: #978C87;
+$hover-color: #5e5450;
+
 body{
-  background-color: black;
+  background-color: $background-color;
+  margin: 0;
 }
 
 a{
   &:hover{
     color: white;
-    background-color: gray;
+    background-color: $hover-color;
   }
   &#enter{
     margin: auto;
@@ -56,7 +61,7 @@ span#landing-reel{
 #logo{
   max-height: 45px;
   &:hover{
-    background-color: gray;
+    background-color: $hover-color;
   }
 }
 
@@ -64,13 +69,13 @@ span#landing-reel{
   width: 50%;
   margin: auto;
   text-align: center;
-  background-color: gray;
+  background-color: $content-color;
   padding: 20px;
   height: 100%;
 }
 
 #content-wrapper{
-  background-color: gray;
+  background-color: $content-color;
   width: 100%;
   min-height: 610px
 }
@@ -93,7 +98,7 @@ ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: $background-color;
 }
 
 li{
@@ -102,7 +107,7 @@ li{
 
   &:hover{
     color: white;
-    background-color: gray;
+    background-color: $background-color;
   }
 
   a{
@@ -111,7 +116,7 @@ li{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: grey;
+    color: white;
     font-size: 25px;
     height: 51px;
   }
@@ -139,12 +144,12 @@ li{
     a{
       width:338px;
       text-decoration: none;
-      background-color: red;
+      background-color: $background-color;
       display: block;
       text-align: center;
       vertical-align: middle;
       &:hover{
-        background-color: gray;
+        background-color: $hover-color;
       }
     }
   }

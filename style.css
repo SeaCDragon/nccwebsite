@@ -1,10 +1,11 @@
 body {
-  background-color: black;
+  background-color: #382E2C;
+  margin: 0;
 }
 
 a:hover {
   color: white;
-  background-color: gray;
+  background-color: #5e5450;
 }
 a#enter {
   margin: auto;
@@ -60,20 +61,20 @@ span#landing-reel::before {
   max-height: 45px;
 }
 #logo:hover {
-  background-color: gray;
+  background-color: #5e5450;
 }
 
 #content {
   width: 50%;
   margin: auto;
   text-align: center;
-  background-color: gray;
+  background-color: #978C87;
   padding: 20px;
   height: 100%;
 }
 
 #content-wrapper {
-  background-color: gray;
+  background-color: #978C87;
   width: 100%;
   min-height: 610px;
 }
@@ -96,7 +97,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: #382E2C;
 }
 
 li {
@@ -105,7 +106,7 @@ li {
 }
 li:hover {
   color: white;
-  background-color: gray;
+  background-color: #382E2C;
 }
 li a {
   font-family: sans-serif;
@@ -113,7 +114,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  color: grey;
+  color: white;
   font-size: 25px;
   height: 51px;
 }
@@ -140,13 +141,13 @@ li a {
 #dropdown-content li a {
   width: 338px;
   text-decoration: none;
-  background-color: red;
+  background-color: #382E2C;
   display: block;
   text-align: center;
   vertical-align: middle;
 }
 #dropdown-content li a:hover {
-  background-color: gray;
+  background-color: #5e5450;
 }
 
 /*# sourceMappingURL=style.css.map */
