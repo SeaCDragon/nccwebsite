@@ -2,33 +2,6 @@ body {
   background-color: black;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-}
-
-li {
-  float: right;
-  display: table-cell;
-}
-li:hover {
-  color: white;
-  background-color: gray;
-}
-li a {
-  font-family: sans-serif;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  color: grey;
-  font-size: 25px;
-  height: 51px;
-}
-
 a:hover {
   color: white;
   background-color: gray;
@@ -102,6 +75,7 @@ span#landing-reel::before {
 #content-wrapper {
   background-color: gray;
   width: 100%;
+  min-height: 610px;
 }
 
 #footer {
@@ -114,6 +88,65 @@ span#landing-reel::before {
 
 #contact {
   font-size: 35px;
+}
+
+/* Dropdown styling */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+  display: table-cell;
+}
+li:hover {
+  color: white;
+  background-color: gray;
+}
+li a {
+  font-family: sans-serif;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: grey;
+  font-size: 25px;
+  height: 51px;
+}
+
+#dropdown {
+  width: 370px;
+  overflow: hidden;
+}
+#dropdown:hover #dropdown-content {
+  display: block;
+}
+
+#dropdown-content {
+  min-width: 160px;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  margin-top: 79px;
+}
+#dropdown-content li {
+  display: table-cell;
+  float: right;
+}
+#dropdown-content li a {
+  width: 338px;
+  text-decoration: none;
+  background-color: red;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+}
+#dropdown-content li a:hover {
+  background-color: gray;
 }
 
 /*# sourceMappingURL=style.css.map */
