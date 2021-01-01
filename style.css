@@ -68,18 +68,19 @@ span#landing-reel::before {
   width: 50%;
   margin: auto;
   text-align: center;
-  background-color: #E4D5D3;
+  background-color: #978C87;
   padding: 20px;
   height: 100%;
 }
 
 #content-wrapper {
-  background-color: #E4D5D3;
+  background-color: #978C87;
   width: 100%;
   min-height: 610px;
 }
 
 #footer {
+  font-size: 18px;
   color: white;
   width: 50%;
   margin: auto;

@@ -70,18 +70,19 @@ span#landing-reel{
   width: 50%;
   margin: auto;
   text-align: center;
-  background-color: $light-grey;
+  background-color: $medium-grey;
   padding: 20px;
   height: 100%;
 }
 
 #content-wrapper{
-  background-color: $light-grey;
+  background-color: $medium-grey;
   width: 100%;
   min-height: 610px
 }
 
 #footer{
+  font-size: 18px;
   color: white;
   width: 50%;
   margin: auto;
