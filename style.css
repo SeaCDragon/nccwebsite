@@ -1,11 +1,11 @@
 body {
-  background-color: #382E2C;
+  background-color: #746661;
   margin: 0;
 }
 
 a:hover {
   color: white;
-  background-color: #382E2C;
+  background-color: #746661;
 }
 a#enter {
   margin: auto;
@@ -28,7 +28,7 @@ a#enter:hover {
 p {
   font-size: 25px;
   font-family: sans-serif;
-  color: white;
+  color: black;
 }
 
 span#landing-reel {
@@ -61,20 +61,20 @@ span#landing-reel::before {
   max-height: 45px;
 }
 #logo:hover {
-  background-color: #382E2C;
+  background-color: #746661;
 }
 
 #content {
   width: 50%;
   margin: auto;
   text-align: center;
-  background-color: #978C87;
+  background-color: #E4D5D3;
   padding: 20px;
   height: 100%;
 }
 
 #content-wrapper {
-  background-color: #978C87;
+  background-color: #E4D5D3;
   width: 100%;
   min-height: 610px;
 }
@@ -97,7 +97,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #382E2C;
+  background-color: #746661;
 }
 
 li {
@@ -106,7 +106,7 @@ li {
 }
 li:hover {
   color: white;
-  background-color: #382E2C;
+  background-color: #746661;
 }
 li a {
   font-family: sans-serif;
@@ -141,13 +141,13 @@ li a {
 #dropdown-content li a {
   width: 338px;
   text-decoration: none;
-  background-color: #382E2C;
+  background-color: #746661;
   display: block;
   text-align: center;
   vertical-align: middle;
 }
 #dropdown-content li a:hover {
-  background-color: #382E2C;
+  background-color: #746661;
 }
 
 /*# sourceMappingURL=style.css.map */

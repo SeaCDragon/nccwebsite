@@ -4,14 +4,14 @@ $medium-grey: #978C87;
 $deep-grey: #746661;
 
 body{
-  background-color: $deep-brown;
+  background-color: $deep-grey;
   margin: 0;
 }
 
 a{
   &:hover{
     color: white;
-    background-color: $deep-brown;
+    background-color: $deep-grey;
   }
   &#enter{
     margin: auto;
@@ -35,7 +35,7 @@ a{
 p{
   font-size: 25px;
   font-family: sans-serif;
-  color: white;
+  color: black;
 }
 
 span#landing-reel{
@@ -62,7 +62,7 @@ span#landing-reel{
 #logo{
   max-height: 45px;
   &:hover{
-    background-color: $deep-brown;
+    background-color: $deep-grey;
   }
 }
 
@@ -70,13 +70,13 @@ span#landing-reel{
   width: 50%;
   margin: auto;
   text-align: center;
-  background-color: $medium-grey;
+  background-color: $light-grey;
   padding: 20px;
   height: 100%;
 }
 
 #content-wrapper{
-  background-color: $medium-grey;
+  background-color: $light-grey;
   width: 100%;
   min-height: 610px
 }
@@ -99,7 +99,7 @@ ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: $deep-brown;
+  background-color: $deep-grey;
 }
 
 li{
@@ -108,7 +108,7 @@ li{
 
   &:hover{
     color: white;
-    background-color: $deep-brown;
+    background-color: $deep-grey;
   }
 
   a{
@@ -145,12 +145,12 @@ li{
     a{
       width:338px;
       text-decoration: none;
-      background-color: $deep-brown;
+      background-color: $deep-grey;
       display: block;
       text-align: center;
       vertical-align: middle;
       &:hover{
-        background-color: $deep-brown;
+        background-color: $deep-grey;
       }
     }
   }
