@@ -1,40 +1,17 @@
+$deep-brown: #382E2C;
+$light-grey: #E4D5D3;
+$medium-grey: #978C87;
+$deep-grey: #746661;
+
 body{
-  background-color: black;
-}
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-}
-
-li{
-  float: right;
-  display: table-cell;
-
-  &:hover{
-    color: white;
-    background-color: gray;
-  }
-
-  a{
-    font-family: sans-serif;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: grey;
-    font-size: 25px;
-    height: 51px;
-  }
+  background-color: $deep-brown;
+  margin: 0;
 }
 
 a{
   &:hover{
     color: white;
-    background-color: gray;
+    background-color: $deep-brown;
   }
   &#enter{
     margin: auto;
@@ -47,6 +24,7 @@ a{
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    text-decoration: none;
     &:hover{
       background-color: grey;
       color: white;
@@ -57,7 +35,7 @@ a{
 p{
   font-size: 25px;
   font-family: sans-serif;
-  color:white;
+  color: white;
 }
 
 span#landing-reel{
@@ -83,20 +61,24 @@ span#landing-reel{
 
 #logo{
   max-height: 45px;
+  &:hover{
+    background-color: $deep-brown;
+  }
 }
 
 #content{
   width: 50%;
   margin: auto;
   text-align: center;
-  background-color: gray;
+  background-color: $medium-grey;
   padding: 20px;
   height: 100%;
 }
 
 #content-wrapper{
-  background-color: gray;
+  background-color: $medium-grey;
   width: 100%;
+  min-height: 610px
 }
 
 #footer{
@@ -109,4 +91,67 @@ span#landing-reel{
 
 #contact{
   font-size: 35px;
+}
+
+/* Dropdown styling */
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $deep-brown;
+}
+
+li{
+  float: right;
+  display: table-cell;
+
+  &:hover{
+    color: white;
+    background-color: $deep-brown;
+  }
+
+  a{
+    font-family: sans-serif;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    height: 51px;
+  }
+}
+
+#dropdown{
+  width: 370px;
+  overflow: hidden;
+  &:hover{
+    #dropdown-content{
+      display: block;
+    }
+  }
+}
+
+#dropdown-content{
+  min-width: 160px;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  margin-top: 79px;
+  li {
+    display: table-cell;
+    float: right;
+    a{
+      width:338px;
+      text-decoration: none;
+      background-color: $deep-brown;
+      display: block;
+      text-align: center;
+      vertical-align: middle;
+      &:hover{
+        background-color: $deep-brown;
+      }
+    }
+  }
 }

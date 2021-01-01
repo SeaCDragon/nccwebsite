@@ -1,37 +1,11 @@
 body {
-  background-color: black;
-}
-
-ul {
-  list-style-type: none;
+  background-color: #382E2C;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-}
-
-li {
-  float: right;
-  display: table-cell;
-}
-li:hover {
-  color: white;
-  background-color: gray;
-}
-li a {
-  font-family: sans-serif;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  color: grey;
-  font-size: 25px;
-  height: 51px;
 }
 
 a:hover {
   color: white;
-  background-color: gray;
+  background-color: #382E2C;
 }
 a#enter {
   margin: auto;
@@ -44,6 +18,7 @@ a#enter {
   background-color: white;
   border-radius: 10px;
   padding: 10px;
+  text-decoration: none;
 }
 a#enter:hover {
   background-color: grey;
@@ -85,19 +60,23 @@ span#landing-reel::before {
 #logo {
   max-height: 45px;
 }
+#logo:hover {
+  background-color: #382E2C;
+}
 
 #content {
   width: 50%;
   margin: auto;
   text-align: center;
-  background-color: gray;
+  background-color: #978C87;
   padding: 20px;
   height: 100%;
 }
 
 #content-wrapper {
-  background-color: gray;
+  background-color: #978C87;
   width: 100%;
+  min-height: 610px;
 }
 
 #footer {
@@ -110,6 +89,65 @@ span#landing-reel::before {
 
 #contact {
   font-size: 35px;
+}
+
+/* Dropdown styling */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #382E2C;
+}
+
+li {
+  float: right;
+  display: table-cell;
+}
+li:hover {
+  color: white;
+  background-color: #382E2C;
+}
+li a {
+  font-family: sans-serif;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  height: 51px;
+}
+
+#dropdown {
+  width: 370px;
+  overflow: hidden;
+}
+#dropdown:hover #dropdown-content {
+  display: block;
+}
+
+#dropdown-content {
+  min-width: 160px;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  margin-top: 79px;
+}
+#dropdown-content li {
+  display: table-cell;
+  float: right;
+}
+#dropdown-content li a {
+  width: 338px;
+  text-decoration: none;
+  background-color: #382E2C;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+}
+#dropdown-content li a:hover {
+  background-color: #382E2C;
 }
 
 /*# sourceMappingURL=style.css.map */
