@@ -5,7 +5,7 @@ body {
 
 a:hover {
   color: white;
-  background-color: #5e5450;
+  background-color: #382E2C;
 }
 a#enter {
   margin: auto;
@@ -61,7 +61,7 @@ span#landing-reel::before {
   max-height: 45px;
 }
 #logo:hover {
-  background-color: #5e5450;
+  background-color: #382E2C;
 }
 
 #content {
@@ -147,7 +147,7 @@ li a {
   vertical-align: middle;
 }
 #dropdown-content li a:hover {
-  background-color: #5e5450;
+  background-color: #382E2C;
 }
 
 /*# sourceMappingURL=style.css.map */
