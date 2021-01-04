@@ -35,7 +35,7 @@ a{
 p{
   font-size: 25px;
   font-family: sans-serif;
-  color: white;
+  color: $deep-brown;
 }
 
 span#landing-reel{
@@ -70,13 +70,13 @@ span#landing-reel{
   width: 50%;
   margin: auto;
   text-align: center;
-  background-color: $medium-grey;
+  background-color: $light-grey;
   padding: 20px;
   height: 100%;
 }
 
 #content-wrapper{
-  background-color: $medium-grey;
+  background-color: $light-grey;
   width: 100%;
   min-height: 610px
 }
