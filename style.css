@@ -76,7 +76,7 @@ span#landing-reel::before {
 #content-wrapper {
   background-color: #978C87;
   width: 100%;
-  min-height: 610px;
+  min-height: 630px;
 }
 
 #footer {
@@ -85,6 +85,7 @@ span#landing-reel::before {
   margin: auto;
   text-align: center;
   margin-top: 10px;
+  font-size: 15px;
 }
 
 #contact {
@@ -115,8 +116,10 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   color: white;
-  font-size: 25px;
-  height: 51px;
+  font-size: 20px;
+}
+li a.navbar-item {
+  padding: 28px 16px;
 }
 
 #dropdown {
