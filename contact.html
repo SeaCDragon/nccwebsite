@@ -3,13 +3,24 @@
 	<head>
 		<title>Nathan Cheng Consulting</title>
 		<link rel="stylesheet" href="style.css">
+		<style media="screen">
+			#footer{
+				bottom: 0px;
+				position: absolute;
+			}
+		</style>
 	</head>
 	<body>
 		<ul>
-			<li style="float: left;"><a href="home.html"><img src="typeface.png" id="logo"></a></li>
+			<li style="float: left;"><a href="index.html"><img src="typeface.png" id="logo"></a></li>
 			<li><a href="contact.html" class="navbar-item">Contact</a></li>
-			<li><a href="concierge.html" class="navbar-item">Concierge</a></li>
-			<li><a href="const-mang.html" class="navbar-item">Construction Management</a></li>
+			<div id="dropdown">
+				<li><a href="#" class="navbar-item">Services</a></li>
+				<div id="dropdown-content">
+					<li><a href="concierge.html">Concierge</a></li><br>
+					<li><a href="const-mang.html">Construction Management</a></li>
+				</div>
+			</div>
 			<li><a href="about.html" class="navbar-item">About</a></li>
 		</ul>
 		<div id="content-wrapper">

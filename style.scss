@@ -3,6 +3,7 @@ $light-grey: #E4D5D3;
 $medium-grey: #978C87;
 $deep-grey: #746661;
 $old-brown: rgba(140, 103, 72, 1);
+$pale-grey:#dedede;
 
 body{
   background-color: $old-brown;
@@ -75,31 +76,35 @@ span#landing-reel{
   padding: 20px;
   height: 100%;
   text-shadow: 0 0 10px black;
+  padding-top: 81px;
 }
 
 #content-wrapper{
   /*background-color: $medium-grey;*/
   width: 100%;
   min-height: 630px;
-  border-bottom: 2px solid white;
   &::before{
     z-index: -1;
     background-image: url(bg1.jpg);
     filter: brightness(50%);
     content: "";
-    position: absolute;
+    position: fixed;
     width: 100%;
-    height: 630px;
+    height: 100%;
   }
 }
 
 #footer{
+  padding-top: 10px;
+  min-height: 70px;
+  border-top: 2px solid white;
   color: white;
   width: 100%;
   margin: auto;
   text-align: center;
   margin-top: 10px;
   font-size: 15px;
+  background-color: $old-brown;
 }
 
 #contact{
@@ -118,12 +123,25 @@ span#landing-reel{
   }
 }
 
+.point{
+  h3{
+    color: white;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  p{
+    font-size: 20px;
+  }
+}
+
 /* Dropdown styling */
 ul{
+  width:100%;
+  position: fixed;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /*overflow: hidden;*/
   background-color: $old-brown;
   border-bottom: 2px solid white;
 }
@@ -138,12 +156,12 @@ li{
   }
 
   a{
+    color: white;
     font-family: sans-serif;
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: white;
     font-size: 20px;
     &.navbar-item{
       padding: 28px 16px;
@@ -154,26 +172,26 @@ li{
 
 
 #dropdown{
-  width: 370px;
-  overflow: hidden;
   &:hover{
     #dropdown-content{
-      display: block;
+      display: inline-block;
     }
   }
 }
 
 #dropdown-content{
-  min-width: 160px;
   display: none;
   position: absolute;
-  z-index: 1;
+  z-index: 4;
   margin-top: 79px;
+  margin-left: 350px;
+  background-color: $old-brown;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
   li {
-    display: table-cell;
-    float: right;
-    a{
-      width:338px;
+    a {
+      /*width:338px;*/
       text-decoration: none;
       background-color: $old-brown;
       display: block;
