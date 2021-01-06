@@ -1,11 +1,11 @@
 body {
-  background-color: #382E2C;
+  background-color: #8c6748;
   margin: 0;
 }
 
 a:hover {
   color: white;
-  background-color: #382E2C;
+  background-color: #8c6748;
 }
 a#enter {
   margin: auto;
@@ -61,27 +61,38 @@ span#landing-reel::before {
   max-height: 45px;
 }
 #logo:hover {
-  background-color: #382E2C;
+  background-color: #8c6748;
 }
 
 #content {
   width: 50%;
   margin: auto;
   text-align: center;
-  background-color: #978C87;
+  /*background-color: $medium-grey;*/
   padding: 20px;
   height: 100%;
+  text-shadow: 0 0 10px black;
 }
 
 #content-wrapper {
-  background-color: #978C87;
+  /*background-color: $medium-grey;*/
   width: 100%;
   min-height: 630px;
+  border-bottom: 2px solid white;
+}
+#content-wrapper::before {
+  z-index: -1;
+  background-image: url(bg1.jpg);
+  filter: brightness(50%);
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 630px;
 }
 
 #footer {
   color: white;
-  width: 50%;
+  width: 100%;
   margin: auto;
   text-align: center;
   margin-top: 10px;
@@ -92,13 +103,24 @@ span#landing-reel::before {
   font-size: 35px;
 }
 
+#bio p {
+  font-size: 20px;
+  line-height: 150%;
+}
+#bio h3 {
+  font-family: "open sans", sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
 /* Dropdown styling */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #382E2C;
+  background-color: #8c6748;
+  border-bottom: 2px solid white;
 }
 
 li {
@@ -107,7 +129,7 @@ li {
 }
 li:hover {
   color: white;
-  background-color: #382E2C;
+  background-color: #8c6748;
 }
 li a {
   font-family: sans-serif;
@@ -144,13 +166,13 @@ li a.navbar-item {
 #dropdown-content li a {
   width: 338px;
   text-decoration: none;
-  background-color: #382E2C;
+  background-color: #8c6748;
   display: block;
   text-align: center;
   vertical-align: middle;
 }
 #dropdown-content li a:hover {
-  background-color: #382E2C;
+  background-color: #8c6748;
 }
 
 /*# sourceMappingURL=style.css.map */

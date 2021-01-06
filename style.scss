@@ -2,16 +2,17 @@ $deep-brown: #382E2C;
 $light-grey: #E4D5D3;
 $medium-grey: #978C87;
 $deep-grey: #746661;
+$old-brown: rgba(140, 103, 72, 1);
 
 body{
-  background-color: $deep-brown;
+  background-color: $old-brown;
   margin: 0;
 }
 
 a{
   &:hover{
     color: white;
-    background-color: $deep-brown;
+    background-color: $old-brown;
   }
   &#enter{
     margin: auto;
@@ -62,7 +63,7 @@ span#landing-reel{
 #logo{
   max-height: 45px;
   &:hover{
-    background-color: $deep-brown;
+    background-color: $old-brown;
   }
 }
 
@@ -70,20 +71,31 @@ span#landing-reel{
   width: 50%;
   margin: auto;
   text-align: center;
-  background-color: $medium-grey;
+  /*background-color: $medium-grey;*/
   padding: 20px;
   height: 100%;
+  text-shadow: 0 0 10px black;
 }
 
 #content-wrapper{
-  background-color: $medium-grey;
+  /*background-color: $medium-grey;*/
   width: 100%;
   min-height: 630px;
+  border-bottom: 2px solid white;
+  &::before{
+    z-index: -1;
+    background-image: url(bg1.jpg);
+    filter: brightness(50%);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 630px;
+  }
 }
 
 #footer{
   color: white;
-  width: 50%;
+  width: 100%;
   margin: auto;
   text-align: center;
   margin-top: 10px;
@@ -94,13 +106,26 @@ span#landing-reel{
   font-size: 35px;
 }
 
+#bio{
+  p{
+    font-size: 20px;
+    line-height: 150%;
+  }
+  h3{
+    font-family: "open sans", sans-serif;
+    color: white;
+    font-size: 30px;
+  }
+}
+
 /* Dropdown styling */
 ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: $deep-brown;
+  background-color: $old-brown;
+  border-bottom: 2px solid white;
 }
 
 li{
@@ -109,7 +134,7 @@ li{
 
   &:hover{
     color: white;
-    background-color: $deep-brown;
+    background-color: $old-brown;
   }
 
   a{
@@ -150,12 +175,12 @@ li{
     a{
       width:338px;
       text-decoration: none;
-      background-color: $deep-brown;
+      background-color: $old-brown;
       display: block;
       text-align: center;
       vertical-align: middle;
       &:hover{
-        background-color: $deep-brown;
+        background-color: $old-brown;
       }
     }
   }
