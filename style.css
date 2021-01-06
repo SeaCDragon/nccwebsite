@@ -159,16 +159,18 @@ li a.navbar-item {
   padding: 28px 16px;
 }
 
+#dropdown {
+  position: relative;
+}
 #dropdown:hover #dropdown-content {
-  display: inline-block;
+  display: block;
+  position: absolute;
 }
 
 #dropdown-content {
   display: none;
   position: absolute;
   z-index: 4;
-  margin-top: 79px;
-  margin-left: 350px;
   background-color: #8c6748;
   border-bottom: 2px solid white;
   border-right: 2px solid white;

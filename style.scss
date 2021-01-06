@@ -172,9 +172,11 @@ li{
 
 
 #dropdown{
+  position: relative;
   &:hover{
     #dropdown-content{
-      display: inline-block;
+      display: block;
+      position: absolute;
     }
   }
 }
@@ -183,8 +185,6 @@ li{
   display: none;
   position: absolute;
   z-index: 4;
-  margin-top: 79px;
-  margin-left: 350px;
   background-color: $old-brown;
   border-bottom: 2px solid white;
   border-right: 2px solid white;
