@@ -1,6 +1,11 @@
+html {
+  height: 100%;
+}
+
 body {
   background-color: #8c6748;
   margin: 0;
+  height: 100%;
 }
 
 a:hover {
@@ -71,6 +76,8 @@ span#landing-reel::before {
   background-color: #e6e6e6;
   padding: 20px;
   height: 100%;
+  padding-top: 81px;
+  padding-bottom: 92px;
 }
 #content h1 {
   color: black;
@@ -81,8 +88,8 @@ span#landing-reel::before {
 #content-wrapper {
   background-color: #e6e6e6;
   width: 100%;
-  min-height: 630px;
-  padding-top: 81px;
+  margin-bottom: -92px;
+  min-height: 100%;
 }
 
 #footer {
