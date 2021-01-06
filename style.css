@@ -117,6 +117,15 @@ span#landing-reel::before {
   font-size: 30px;
 }
 
+#email {
+  font-size: 25px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+#email:hover {
+  background-color: none;
+}
+
 .point h3 {
   color: white;
   font-size: 25px;

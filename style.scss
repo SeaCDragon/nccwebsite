@@ -123,6 +123,15 @@ span#landing-reel{
   }
 }
 
+#email{
+  font-size: 25px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  &:hover{
+    background-color: none;
+  }
+}
+
 .point{
   h3{
     color: white;
