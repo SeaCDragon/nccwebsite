@@ -3,7 +3,7 @@ $light-grey: #E4D5D3;
 $medium-grey: #978C87;
 $deep-grey: #746661;
 $old-brown: rgba(140, 103, 72, 1);
-$pale-grey:#dedede;
+$pale-grey:#e6e6e6;
 
 body{
   background-color: $old-brown;
@@ -37,7 +37,7 @@ a{
 p{
   font-size: 25px;
   font-family: sans-serif;
-  color: white;
+  color: black;
 }
 
 span#landing-reel{
@@ -72,31 +72,22 @@ span#landing-reel{
   width: 50%;
   margin: auto;
   text-align: center;
-  /*background-color: $medium-grey;*/
+  background-color: $pale-grey;
   padding: 20px;
   height: 100%;
-  text-shadow: 0 0 10px black;
   padding-top: 81px;
   h1{
-    color: white;
+    color: black;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
   }
 }
 
 #content-wrapper{
-  /*background-color: $medium-grey;*/
+  background-color: $pale-grey;
   width: 100%;
   min-height: 630px;
-  &::before{
-    z-index: -1;
-    background-image: url(bg1.jpg);
-    filter: brightness(50%);
-    content: "";
-    position: fixed;
-    width: 100%;
-    height: 100%;
-  }
+  padding-top: 81px;
 }
 
 #footer{
@@ -123,14 +114,14 @@ span#landing-reel{
   }
   h3{
     font-family: "open sans", sans-serif;
-    color: white;
+    color: black;
     font-size: 30px;
   }
 }
 
 #email{
   font-size: 25px;
-  color: white;
+  color: black;
   font-family: 'Open Sans', sans-serif;
   &:hover{
     background-color: none;
@@ -139,7 +130,7 @@ span#landing-reel{
 
 .point{
   h3{
-    color: white;
+    color: black;
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
   }
