@@ -74,6 +74,11 @@ span#landing-reel::before {
   text-shadow: 0 0 10px black;
   padding-top: 81px;
 }
+#content h1 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+}
 
 #content-wrapper {
   /*background-color: $medium-grey;*/
