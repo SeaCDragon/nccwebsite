@@ -36,32 +36,6 @@ p {
   color: black;
 }
 
-span#landing-reel {
-  color: grey;
-  font-size: 48px;
-  margin: auto;
-  text-align: center;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-span#landing-reel::before {
-  content: "Nathan Cheng Consulting";
-  animation: animate infinite 9s;
-}
-
-@keyframes animate {
-  33% {
-    content: "Client Representation";
-  }
-  66% {
-    content: "Project Management";
-  }
-  99% {
-    content: "Nathan Cheng Consulting";
-  }
-}
 #logo {
   max-height: 45px;
 }
@@ -101,7 +75,7 @@ span#landing-reel::before {
   margin: auto;
   text-align: center;
   font-size: 15px;
-  background-color: #8c6748;
+  background-color: inherit;
 }
 
 #contact {
@@ -144,7 +118,7 @@ ul {
   margin: 0;
   padding: 0;
   /*overflow: hidden;*/
-  background-color: #8c6748;
+  background-color: inherit;
   border-bottom: 2px solid white;
 }
 
@@ -186,16 +160,43 @@ li a.navbar-item {
   border-right: 2px solid white;
   border-left: 2px solid white;
 }
-#dropdown-content li a {
-  /*width:338px;*/
+#dropdown-content a {
   text-decoration: none;
   background-color: #8c6748;
   display: block;
   text-align: center;
   vertical-align: middle;
 }
-#dropdown-content li a:hover {
+#dropdown-content a:hover {
   background-color: #8c6748;
+}
+
+/* Landing Page */
+span#landing-reel {
+  color: grey;
+  font-size: 48px;
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+span#landing-reel::before {
+  content: "Nathan Cheng Consulting";
+  animation: animate infinite 9s;
+}
+
+@keyframes animate {
+  33% {
+    content: "Client Representation";
+  }
+  66% {
+    content: "Project Management";
+  }
+  99% {
+    content: "Nathan Cheng Consulting";
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
