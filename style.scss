@@ -1,24 +1,23 @@
+
+/* Colors*/
 $deep-brown: #382E2C;
 $light-grey: #E4D5D3;
 $medium-grey: #978C87;
 $deep-grey: #746661;
 $old-brown: rgba(140, 103, 72, 1);
-$pale-grey:#e6e6e6;
+$pale-grey: #e6e6e6;
 
 html{
   height: 100%;
 }
+
 body{
-  background-color: $old-brown;
-  margin: 0;
   height: 100%;
+  margin: 0;
+  background-color: $old-brown;
 }
 
 a{
-  &:hover{
-    color: white;
-    background-color: $old-brown;
-  }
   &#enter{
     margin: auto;
     text-align: center;
@@ -55,7 +54,7 @@ p{
   width: 50%;
   margin: auto;
   text-align: center;
-  background-color: $pale-grey;
+  background-color: inherit;
   padding: 20px;
   height: 100%;
   padding-top: 81px;
@@ -96,7 +95,7 @@ p{
     line-height: 150%;
   }
   h3{
-    font-family: "open sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: black;
     font-size: 30px;
   }
@@ -129,8 +128,7 @@ ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  /*overflow: hidden;*/
-  background-color: inherit;
+  background-color: inherit; /* Inherits from body */
   border-bottom: 2px solid white;
 }
 
@@ -154,8 +152,6 @@ li{
     }
   }
 }
-
-
 
 #dropdown{
   position: relative;

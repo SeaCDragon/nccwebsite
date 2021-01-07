@@ -1,17 +1,14 @@
+/* Colors*/
 html {
   height: 100%;
 }
 
 body {
-  background-color: #8c6748;
-  margin: 0;
   height: 100%;
+  margin: 0;
+  background-color: #8c6748;
 }
 
-a:hover {
-  color: white;
-  background-color: #8c6748;
-}
 a#enter {
   margin: auto;
   text-align: center;
@@ -47,7 +44,7 @@ p {
   width: 50%;
   margin: auto;
   text-align: center;
-  background-color: #e6e6e6;
+  background-color: inherit;
   padding: 20px;
   height: 100%;
   padding-top: 81px;
@@ -87,7 +84,7 @@ p {
   line-height: 150%;
 }
 #bio h3 {
-  font-family: "open sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: black;
   font-size: 30px;
 }
@@ -117,8 +114,8 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  /*overflow: hidden;*/
   background-color: inherit;
+  /* Inherits from body */
   border-bottom: 2px solid white;
 }
 
