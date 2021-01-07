@@ -55,6 +55,11 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 40px;
 }
+#content h3 {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+}
 
 #content-wrapper {
   background-color: #e6e6e6;
@@ -94,9 +99,6 @@ p {
   color: black;
   font-family: "Open Sans", sans-serif;
 }
-#email:hover {
-  background-color: none;
-}
 
 .point h3 {
   color: black;
@@ -105,6 +107,14 @@ p {
 }
 .point p {
   font-size: 20px;
+}
+
+.address p {
+  font-size: 20px;
+}
+.address h3 {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Dropdown styling */

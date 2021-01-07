@@ -64,6 +64,11 @@ p{
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
   }
+  h3{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+  }
 }
 
 #content-wrapper{
@@ -105,9 +110,6 @@ p{
   font-size: 25px;
   color: black;
   font-family: 'Open Sans', sans-serif;
-  &:hover{
-    background-color: none;
-  }
 }
 
 .point{
@@ -118,6 +120,16 @@ p{
   }
   p{
     font-size: 20px;
+  }
+}
+
+.address{
+  p{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
   }
 }
 
