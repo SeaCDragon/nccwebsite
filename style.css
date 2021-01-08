@@ -84,6 +84,9 @@ p {
   font-size: 35px;
 }
 
+#bio {
+  padding-bottom: 30px;
+}
 #bio p {
   font-size: 20px;
   line-height: 150%;
@@ -100,6 +103,12 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
+#flowchart {
+  max-height: 550px;
+  margin: auto;
+  border: 1px black;
+}
+
 .point h3 {
   color: black;
   font-size: 25px;
@@ -109,11 +118,25 @@ p {
   font-size: 20px;
 }
 
+.address {
+  padding-bottom: 20px;
+}
 .address p {
   font-size: 20px;
 }
 .address h3 {
   font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+.bold p {
+  font-size: 25px;
+}
+.bold h3 {
+  font-size: 30px;
   font-family: "Open Sans", sans-serif;
 }
 

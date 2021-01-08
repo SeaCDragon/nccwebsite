@@ -95,6 +95,7 @@ p{
 }
 
 #bio{
+  padding-bottom: 30px;
   p{
     font-size: 20px;
     line-height: 150%;
@@ -112,6 +113,12 @@ p{
   font-family: 'Open Sans', sans-serif;
 }
 
+#flowchart{
+  max-height: 550px;
+  margin: auto;
+  border: 1px black;
+}
+
 .point{
   h3{
     color: black;
@@ -124,11 +131,23 @@ p{
 }
 
 .address{
+  padding-bottom: 20px;
   p{
     font-size: 20px;
   }
   h3{
     font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+.bold{
+  font-weight: bold;
+  p{
+    font-size: 25px;
+  }
+  h3{
+    font-size: 30px;
     font-family: 'Open Sans', sans-serif;
   }
 }
