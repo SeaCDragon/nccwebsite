@@ -17,26 +17,6 @@ body{
   background-color: $old-brown;
 }
 
-a{
-  &#enter{
-    margin: auto;
-    text-align: center;
-    position: fixed;
-    font-size: 24px;
-    top: 60%;
-    left: 47%;
-    color: black;
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
-    text-decoration: none;
-    &:hover{
-      background-color: grey;
-      color: white;
-    }
-  }
-}
-
 p{
   font-size: 25px;
   font-family: sans-serif;
@@ -45,9 +25,6 @@ p{
 
 #logo{
   max-height: 45px;
-  &:hover{
-    background-color: $old-brown;
-  }
 }
 
 #content{
@@ -82,12 +59,14 @@ p{
   padding-top: 20px;
   min-height: 70px;
   border-top: 2px solid white;
-  color: white;
   width: 100%;
   margin: auto;
-  text-align: center;
-  font-size: 15px;
   background-color: inherit;
+  p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+  }  
 }
 
 #contact{
@@ -166,12 +145,13 @@ ul{
 li{
   float: right;
   display: table-cell;
+  color: white;
+  transition: background-color 0.5s;
   &:hover{
-    color: white;
-    background-color: $old-brown;
+    background-color: $deep-brown;
   }
   a{
-    color: white;
+    color: inherit;
     font-family: sans-serif;
     display: block;
     text-align: center;
@@ -198,13 +178,13 @@ li{
   display: none;
   position: absolute;
   z-index: 4;
-  background-color: $old-brown;
+  background-color: inherit;
   border-bottom: 2px solid white;
   border-right: 2px solid white;
   border-left: 2px solid white;
   a {
     text-decoration: none;
-    background-color: $old-brown;
+    background-color: inherit;
     display: block;
     text-align: center;
     vertical-align: middle;
@@ -228,6 +208,24 @@ span#landing-reel{
   &::before{
     content: "Nathan Cheng Consulting";
     animation: animate infinite 9s;
+  }
+}
+
+a#enter{
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  font-size: 24px;
+  top: 60%;
+  left: 47%;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  &:hover{
+    background-color: grey;
+    color: white;
   }
 }
 

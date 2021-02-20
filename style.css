@@ -9,24 +9,6 @@ body {
   background-color: #8c6748;
 }
 
-a#enter {
-  margin: auto;
-  text-align: center;
-  position: fixed;
-  font-size: 24px;
-  top: 60%;
-  left: 47%;
-  color: black;
-  background-color: white;
-  border-radius: 10px;
-  padding: 10px;
-  text-decoration: none;
-}
-a#enter:hover {
-  background-color: grey;
-  color: white;
-}
-
 p {
   font-size: 25px;
   font-family: sans-serif;
@@ -35,9 +17,6 @@ p {
 
 #logo {
   max-height: 45px;
-}
-#logo:hover {
-  background-color: #8c6748;
 }
 
 #content {
@@ -72,12 +51,14 @@ p {
   padding-top: 20px;
   min-height: 70px;
   border-top: 2px solid white;
-  color: white;
   width: 100%;
   margin: auto;
+  background-color: inherit;
+}
+#footer p {
+  color: white;
   text-align: center;
   font-size: 15px;
-  background-color: inherit;
 }
 
 #contact {
@@ -155,13 +136,14 @@ ul {
 li {
   float: right;
   display: table-cell;
+  color: white;
+  transition: background-color 0.5s;
 }
 li:hover {
-  color: white;
-  background-color: #8c6748;
+  background-color: #382E2C;
 }
 li a {
-  color: white;
+  color: inherit;
   font-family: sans-serif;
   display: block;
   text-align: center;
@@ -185,14 +167,14 @@ li a.navbar-item {
   display: none;
   position: absolute;
   z-index: 4;
-  background-color: #8c6748;
+  background-color: inherit;
   border-bottom: 2px solid white;
   border-right: 2px solid white;
   border-left: 2px solid white;
 }
 #dropdown-content a {
   text-decoration: none;
-  background-color: #8c6748;
+  background-color: inherit;
   display: block;
   text-align: center;
   vertical-align: middle;
@@ -215,6 +197,24 @@ span#landing-reel {
 span#landing-reel::before {
   content: "Nathan Cheng Consulting";
   animation: animate infinite 9s;
+}
+
+a#enter {
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  font-size: 24px;
+  top: 60%;
+  left: 47%;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+a#enter:hover {
+  background-color: grey;
+  color: white;
 }
 
 @keyframes animate {
