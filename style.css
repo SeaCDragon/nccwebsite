@@ -58,7 +58,7 @@ p {
 #footer p {
   color: white;
   text-align: center;
-  font-size: 15px;
+  font-size: 1vw;
 }
 
 #contact {
@@ -137,10 +137,10 @@ li {
   float: right;
   display: table-cell;
   color: white;
-  transition: background-color 0.5s;
-}
-li:hover {
-  background-color: #382E2C;
+  /*transition: background-color 0.5s;
+  &:hover{
+    background-color: $deep-brown;
+  }*/
 }
 li a {
   color: inherit;
