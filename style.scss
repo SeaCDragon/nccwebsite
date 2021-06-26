@@ -1,3 +1,12 @@
+/*
+
+whenever this file is changed, make sure to recompile it to css before uploading
+it to the hosting service
+
+Documentation for Sass and .scss files can be found at https://sass-lang.com
+
+*/
+
 
 /* Colors*/
 $deep-brown: #382E2C;
@@ -26,7 +35,8 @@ p{
 #logo{
   max-height: 45px;
 }
-
+/*the content div flexes to accomodate all of the content in the center of the page
+it is only overwritten on index.html to add a background image*/
 #content{
   width: 50%;
   margin: auto;
@@ -48,13 +58,19 @@ p{
   }
 }
 
+/*the content-wrapper lets the background color stretch to the edge of the
+screen without also stretching the content*/
+/*it has it's own sepatate background color*/
 #content-wrapper{
   background-color: $pale-grey;
   width: 100%;
+  /*the negative margin is to allow for the footer to behave as it does.
+  if anything about the footer size is changed, this must be adjusted too*/
   margin-bottom: -92px;
   min-height: 100%;
 }
 
+/*the footer inheirits the background color assigned to the body*/
 #footer{
   padding-top: 20px;
   min-height: 70px;
@@ -62,13 +78,14 @@ p{
   width: 100%;
   margin: auto;
   background-color: inherit;
+  /*the footer has smaller text by default, only paragraph tags are used*/
   p{
     color: white;
     text-align: center;
     font-size: 1vw;
   }
 }
-
+/*deprecated*/
 #contact{
   font-size: 35px;
 }
@@ -92,12 +109,14 @@ p{
   font-family: 'Open Sans', sans-serif;
 }
 
+/* deprecated */
 #flowchart{
   max-height: 550px;
   margin: auto;
   border: 1px black;
 }
 
+/*used to organize the bullte points in concierge.html and const-mang.html*/
 .point{
   h3{
     color: black;
@@ -109,6 +128,7 @@ p{
   }
 }
 
+/*deprecated*/
 .address{
   padding-bottom: 20px;
   p{
@@ -132,6 +152,11 @@ p{
 }
 
 /* Dropdown styling */
+/* ill be honest, this took so much tweaking and changing to get to work that
+I cant exactly describe how it functions. feel free to try and figure out how
+it works, but if you have a better dropdown implementation, please use that instead */
+
+/*this ul is the dropdown trigger, it has the #dropdown id*/
 ul{
   width:100%;
   position: fixed;
@@ -164,6 +189,7 @@ li{
   }
 }
 
+/*this displays the actual dropdown*/
 #dropdown{
   position: relative;
   &:hover{
@@ -173,7 +199,7 @@ li{
     }
   }
 }
-
+/*all of these rules keep the dropdown menu fixed below the trigger */
 #dropdown-content{
   display: none;
   position: absolute;
@@ -195,6 +221,8 @@ li{
 }
 
 /* Landing Page */
+/* the landing page is currently unsused, these styles were for a animated text rotation,
+they arent used anywhere else on the site */
 
 span#landing-reel{
   color: grey;
